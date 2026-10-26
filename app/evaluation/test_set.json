@@ -1,82 +1,52 @@
 [
   {
-    "question": "What is the result when you take the matrix product of a column vector and a row vector?",
-    "relevant_chunk_ids": ["966ece7f9b6acde8"],
-    "reference_answer": "A matrix, which is termed the outer product."
+    "question": "What is the formula for the variance of a binary random variable representing a single neuron under dropout?",
+    "relevant_chunk_ids": ["790f06d97db28600"],
+    "reference_answer": "p(1 - p)"
   },
   {
-    "question": "What does the column space of A, or C(A), represent?",
-    "relevant_chunk_ids": ["3fa3e55d11cc1fc3"],
-    "reference_answer": "All possible linear combinations of the columns of A."
+    "question": "What does the Bayes' Theorem formula P(B|A) = P(A|B)P(B)/P(A) calculate in a medical context?",
+    "relevant_chunk_ids": ["a3945cbbe570640b"],
+    "reference_answer": "The probability of a disease given the observed symptoms."
   },
   {
-    "question": "What are the two key properties that define a vector space?",
-    "relevant_chunk_ids": ["741405f061cad3c9"],
-    "reference_answer": "Closed under scalar multiplication and closed under addition."
+    "question": "What is the expression for entropy in terms of the probability of outcomes?",
+    "relevant_chunk_ids": ["b8701cb3246a3cc0"],
+    "reference_answer": "Negative sum of p(xi) log2 p(xi)."
   },
   {
-    "question": "What is the basis of a vector space?",
-    "relevant_chunk_ids": ["f47716223b4b445d"],
-    "reference_answer": "A list of linearly independent vectors that span the space."
+    "question": "What is the difference between cross entropy and KL divergence?",
+    "relevant_chunk_ids": ["25b9ee1ef82079cd"],
+    "reference_answer": "KL divergence is the cross entropy minus the entropy of the true distribution p(x)."
   },
   {
-    "question": "What is the null space of a matrix A, or N(A)?",
-    "relevant_chunk_ids": ["8ac043f8a81dfd83"],
-    "reference_answer": "The space that consists of the vectors v such that Av = 0."
+    "question": "What does linearity of expectation state when we have a sum of random variables?",
+    "relevant_chunk_ids": ["52fc0b5d3859fc73"],
+    "reference_answer": "The expectation of a sum of random variables is equal to the sum of their individual expectations."
   },
   {
-    "question": "How do you find a vector in the null space N(A)?",
-    "relevant_chunk_ids": ["1697cce98a7f8af4"],
-    "reference_answer": "Pick a vector not in the row space, find its projection onto the row space, and subtract the projection from the original vector."
+    "question": "What is the definition of variance for a random variable X?",
+    "relevant_chunk_ids": ["4c520edf35d4d280"],
+    "reference_answer": "The average squared difference between the value X takes on and its expectation."
   },
   {
-    "question": "Why is a matrix with a nontrivial null space also considered singular?",
-    "relevant_chunk_ids": ["86e86d9c05ae9dd9"],
-    "reference_answer": "Because multiple initial vectors map to the same vector, making it impossible to undo the action of the matrix."
+    "question": "Why does the variance of a sum of random variables not have a linearity property?",
+    "relevant_chunk_ids": ["e6d2363f94cf8d5f"],
+    "reference_answer": "Because the formula includes a covariance term, which measures the dependence between the two random variables."
   },
   {
-    "question": "What is the definition of an eigenvector?",
-    "relevant_chunk_ids": ["2dd715df38583870"],
-    "reference_answer": "A nonzero vector v such that Av = cv, where c is some constant."
+    "question": "What is the probability density function in the continuous realm?",
+    "relevant_chunk_ids": ["7b62bc2ff083ee11"],
+    "reference_answer": "A nonnegative function over a sample space that integrates to one."
   },
   {
-    "question": "How do we find the eigenvalues of a matrix A?",
-    "relevant_chunk_ids": ["4bbc37d3255e5928"],
-    "reference_answer": "By finding the roots of the characteristic polynomial, which is the determinant of the matrix A - cI set equal to 0."
+    "question": "What is the probability of any individual outcome in a continuous probability distribution?",
+    "relevant_chunk_ids": ["e358eb4955db91f9"],
+    "reference_answer": "Zero, due to the width of the region being infinitesimal."
   },
   {
-    "question": "What is the fourth tenet of probability, the principle of inclusion and exclusion?",
-    "relevant_chunk_ids": ["166269e3f75c06a9"],
-    "reference_answer": "P(A union B) = P(A) + P(B) - P(A intersection B)."
-  },
-  {
-    "question": "What is the frequentist view of probability?",
-    "relevant_chunk_ids": ["a8c340863aa5e8da"],
-    "reference_answer": "It sees the probability of an outcome as arising from its frequency over a long-run experiment."
-  },
-  {
-    "question": "What is the Bayesian view of probability?",
-    "relevant_chunk_ids": ["a8c340863aa5e8da"],
-    "reference_answer": "It is based on quantifying our prior belief in hypotheses and how we update our beliefs in light of new data."
-  },
-  {
-    "question": "What is conditional probability?",
-    "relevant_chunk_ids": ["642c3c3edf33408c"],
-    "reference_answer": "The probability of an event given the information we've seen."
-  },
-  {
-    "question": "When are two events considered independent?",
-    "relevant_chunk_ids": ["cd67489769ac4958"],
-    "reference_answer": "When seeing one event does not change the probability of the other, meaning P(E1|E2) = P(E1)."
-  },
-  {
-    "question": "What is a random variable?",
-    "relevant_chunk_ids": ["b312ad1499a80845"],
-    "reference_answer": "A map or function from the sample space to another space, such as the integers."
-  },
-  {
-    "question": "How is the expectation of a random variable calculated?",
-    "relevant_chunk_ids": ["c6829a4db4494ab1"],
-    "reference_answer": "By taking the average value that X takes on, weighted by the probability of each of those outcomes."
+    "question": "What is the process of marginalization in probability?",
+    "relevant_chunk_ids": ["ed5757640f9d8de4"],
+    "reference_answer": "Removing a subset of random variables from a joint distribution by summing over all possible configurations of the subset."
   }
 ]

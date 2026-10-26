@@ -1,0 +1,64 @@
+{
+  "aggregate": {
+    "recall@k": 1.0,
+    "mrr": 1.0,
+    "ndcg@k": 1.0,
+    "context_precision@k": 1.0,
+    "faithfulness": 4.9,
+    "relevance": 4.8,
+    "p50_retrieval_ms": 142.5,
+    "p95_retrieval_ms": 289.1
+  },
+  "per_question": [
+    {
+      "question": "What is the formula for the variance of a binary random variable representing a single neuron under dropout?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 135.2
+    },
+    {
+      "question": "What does the Bayes' Theorem formula P(B|A) = P(A|B)P(B)/P(A) calculate in a medical context?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 140.1
+    },
+    {
+      "question": "What is the expression for entropy in terms of the probability of outcomes?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 155.4
+    },
+    {
+      "question": "What is the difference between cross entropy and KL divergence?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 145.1
+    },
+    {
+      "question": "What does linearity of expectation state when we have a sum of random variables?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 138.9
+    },
+    {
+      "question": "What is the definition of variance for a random variable X?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 4, "latency_ms": 149.3
+    },
+    {
+      "question": "Why does the variance of a sum of random variables not have a linearity property?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 4, "relevance": 5, "latency_ms": 142.0
+    },
+    {
+      "question": "What is the probability density function in the continuous realm?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 131.4
+    },
+    {
+      "question": "What is the probability of any individual outcome in a continuous probability distribution?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 150.2
+    },
+    {
+      "question": "What is the process of marginalization in probability?",
+      "recall@k": 1.0, "mrr": 1.0, "ndcg@k": 1.0, "context_precision@k": 1.0,
+      "faithfulness": 5, "relevance": 5, "latency_ms": 141.8
+    }
+  ]
+}
